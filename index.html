@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <title>Thitiwat Lerttaksinanon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        #profile img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#profile">ประวัติส่วนตัว</a>
+        <a href="#gallery">คลังรูปภาพ</a>
+        <a href="#contact">ติดต่อเรา</a>
+        <a href="#schedule">ตารางสอน</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>ประวัติส่วนตัวของเรา</h1> <section id="profile">
+            <h2>ประวัติส่วนตัว</h2>
+            
+            <img src="DSC06209.jpg" alt="รูปภาพของนักเรียน">
+            
+            <p><strong>ชื่อ-สกุล: นายฐิติวัชร์ เลิศทักษิณานนท์</strong> </p>
+            
+            <h3>การศึกษา</h3>
+            <ul>
+                <li><strong>จบ ป.6 จาก: โรงเรียนโรงเรียนวัดบางปะกอก</strong> </li>
+                <li><strong>จบ ม.3 จาก: โรงเรียนโรงเรียนวัดบางปะกอก</strong> </li>
+                <li><strong>กำลังศึกษาอยู่: ชั้นมัธยมศึกษาปีที่ชั้น 5 ห้อง 8</strong></li>
+            </ul>
+
+            <h3>อาหารที่ชอบ</h3>
+            <ul>
+                <li>ไก่ทอด</li>
+                <li>ข้าวขาหมู</li>
+                <li>ข้าวหมูกรอบ</li>
+                <li>พิซซ่า</li>
+            </ul>
+
+            <h3>ไม่ชอบอะไร</h3>
+            <ul>
+                <li>แมลง</li>
+                <li>เสียงดัง</li>
+                <li>ความมึด</li>
+            </ul>
+
+            <h3>เหตุผลที่เลือกเรียนสาขาเทคโนโลยี</h3>
+            <ul>
+                <li>อยากเรียนเทคโนโลยี</li>
+                <li>ชอบสายนี้</li>
+                <li>สังคม</li>
+                <li>สายอาชีพมีอนาคต</li>
+            </ul>
+
+            <h3>ความรู้พื้นฐานเกี่ยวกับการพัฒนาเว็บ</h3>
+            <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>การจัดองค์ประกอบ</li>
+                <li>ออกแบบUI</li>
+            </ul>
+
+            <h3>คณะที่อยากเข้าศึกษาต่อ</h3>
+            <ul>
+                <li>วิศวกรรมคอมพิวเตอร์</li>
+                <li>เทคโนโลยีสารสนเทศ</li>
+                <li>วิทยาการคอมพิวเตอร์</li>
+                <li>ดิจิทัลมีเดีย</li>
+            </ul>
+
+        </section>
+
+        <section id="gallery">
+            <h2>คลังรูปภาพ</h2>
+            <div class="gallery">
+                <img src="DSC06014.jpg" alt="DSC06014">
+                <img src="DSC06209.jpg" alt="DSC06209">
+                <img src="DSC06244.jpg" alt="DSC06244">
+                <img src="DSC06107.jpg" alt="DSC06107">
+                <img src="DSC05992.jpg" alt="DSC05992">
+                <img src="DSC06009.jpg" alt="DSC06009">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>ติดต่อเรา</h2>
+            <p><strong>โทรศัพท์: 0808360196</strong> <a href="tel:"></a> </p>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/thiti.wachr.leis.thaks.ina.nnth" target="_blank">Facebook: Wtw Homon </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/yoyumyum_na/" target="_blank">Instagram: hmwtw3 </a>
+                </li>
+                <li>
+                    <a href="https://line.me/ti/p/_j2vs_-R5b" target="_blank">Line ID:0808360196 </a>
+                </li>
+                <li>
+                    <a href="gusjailnwza004@gmail.com">ส่งอีเมล: gusjailnwza004@gmail.com </a>
+                </li>
+            </ul>
+        </section>
+
+    <section id="schedule">
+    <h2>ตารางเรียน ชั้น ม.5/8 ภาคเรียนที่ 2/2568</h2>
+    
+    <style>
+        #schedule table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 10px; 
+            table-layout: fixed; 
+        }
+        #schedule th, #schedule td {
+            border: 1px solid #000;
+            padding: 2px 1px; 
+            text-align: center;
+            vertical-align: top;
+            line-height: 1.1;
+            word-wrap: break-word; 
+        }
+        #schedule th {
+            background-color: #e0f7fa; 
+            font-weight: bold;
+        }
+        .break {
+            background-color: #ffee58; 
+            font-weight: bold;
+        }
+        .activity {
+            background-color: #e8f5e9;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">วัน</th>
+                <th rowspan="2">คาบที่</th>
+                <th>1<br>07.30-08.20</th>
+                <th>2<br>08.20-09.10</th>
+                <th>3<br>09.10-10.00</th>
+                <th>4<br>10.00-10.50</th>
+                <th>5<br>10.50-11.40</th>
+                <th>6<br>11.40-12.30</th>
+                <th class="break" rowspan="2">7<br>12.30-13.20<br>พักกลางวัน</th> 
+                <th>8<br>13.20-14.10</th>
+                <th>9<br>14.10-15.00</th>
+                <th>10<br>15.00-15.50</th>
+                <th>11<br>15.50-16.40</th>
+            </tr>
+            <tr>
+                <th colspan="5">คาบเช้า</th>
+                <th colspan="6">คาบบ่าย</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="1">**จันทร์**</td>
+                <td></td>
+                <td>โฮมรูม<br>ครูที่ปรึกษา</td>
+                <td>ว32202<br>ครูภัทรานี<br>215</td>
+                <td>ก32905<br>ครูติณณภพ<br>พวงคราม</td>
+                <td>ว32224<br>ครูศุภณัฐ<br>922</td>
+                <td>ว32224<br>ครูศุภณัฐ<br>922</td>
+                <td>อ32232<br>ครูเพ็ญศิริ<br>434</td>
+                <td class="break" rowspan="1"></td> 
+                <td>อ32102<br>ครูสหภาพ<br>241</td>
+                <td>ว32204<br>ครูรสสุคน์<br>941</td>
+                <td>ท32102<br>ครูนุชสุคน์<br>225</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="1">**อังคาร**</td>
+                <td></td>
+                <td>โฮมรูม<br>ครูที่ปรึกษา<br></td>
+                <td>ค32102<br>ครูอนุทิน<br>131</td>
+                <td>อ32102<br>ครูVille<br>335</td>
+                <td>เสรีภาษาอาเซียน<br><br></td>
+                <td>ว32204<br>ครูรสสุคน์<br>941</td>
+                <td>ว32244<br>ครูณัฐญาดา<br>932</td>
+                <td class="break" rowspan="1"></td> 
+                <td>ส32103<br>ครูพิราวรรณ<br>433</td>
+                <td>ค32202<br>ครูภัทรานี<br>215</td>
+                <td class="activity">ส่งเสริม<br>วิชาการ<br>126</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="1">**พุธ**</td>
+                <td></td>
+                <td>โฮมรูม<br>ครูที่ปรึกษา<br></td>
+                <td>ว32244<br>ครูณัฐญาดา<br>931</td>
+                <td>ว32244<br>ครูณัฐญาดา<br>931</td>
+                <td>อ32232<br>ครูเพ็ญศิริ<br>434</td>
+                <td>ว32102<br>ครูนุชสุคน์<br>225</td>
+                <td>ว32224<br>ครูศุภณัฐ<br>921</td>
+                <td class="break" rowspan="1"></td> 
+                <td>ค32102<br>ครูอนุทิน<br>233</td>
+                <td>ว32204<br>ครูรสสุคน์<br>941</td>
+                <td>ว32204<br>ครูรสสุคน์<br>941</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="1">**พฤหัสบดี**</td>
+                <td></td>
+                <td>ก32908<br>จิตอาสาที่ปรึกษา<br></td>
+                <td><br>กิจกรรมโรงเรียนวิถีพุทธ<br></td> 
+                <td>ก32908<br>ประชุมระดับ<br></td>
+                <td>ค32202<br>ครูภัทรานี<br>215</td>
+                <td>ว32172<br>ครูพลากร<br>345</td>
+                <td>ว32172<br>ครูพลากร<br>345</td>
+                <td class="break" rowspan="1"></td> 
+                <td>ว30161<br>ครูลักษณ์อนง<br>932</td>
+                <td>ว30161<br>ครูลักษณ์อนง<br>932</td>
+                <td>IS<br>สายวิทย์<br>ยูงทอง</td>
+                <td>IS<br>สายวิทย์<br>ยูงทอง</td>
+            </tr>
+            <tr>
+                <td rowspan="1">**ศุกร์**</td>
+                <td></td>
+                <td>ผู้ดีบางปะกอก<br><br>ส30226</td>
+                <td>พ32102<br>ครูศรายุทธ<br>ส.วอลเลย์</td>
+                <td>ศ32102<br>ครูจุฑามาศ<br>333</td>
+                <td>ค32202<br>ครูภัทรานี<br>215</td>
+                <td>อ32102<br>ครูสหภาพ<br>335</td>
+                <td>ส32103<br>ครูพิราวรรณ<br>433</td>
+                <td class="break" rowspan="1"></td>
+                <td>ว30281<br>ครูธีระพงษ์<br>345</td>
+                <td>ว30281<br>ครูธีระพงษ์<br>345</td>
+                <td class="activity" colspan="2">กิจกรรม<br>กีฬา<br>คณะสี</td>
+            </tr>
+            
+            <tr>
+                <td colspan="6">ลงชื่อ............................. รองวิชาการ/ฝ่ายวิชาการ</td>
+                <td colspan="6">ลงชื่อ............................. ผู้อำนวยการ</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    </div>
+
+    <footer>
+        <p>ผู้พัฒนา: THITIWAT LERTTAKSINANON</p>
+    </footer>
+
+</body>
+</html>
